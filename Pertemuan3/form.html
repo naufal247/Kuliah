@@ -11,15 +11,16 @@
       width: 50%;
     }
     label {
-      float: left;
       width: 40px;
       padding-right: 24px;
     }
   </style>
   <body>
-    <h1>Contoh Form Registrasi</h1>
+    <h1>Contoh Membuat Form Registrasi</h1>
+
     <form action="register">
       <!-- <div width="50px"> -->
+
       <label for="nama">Nama </label>
       <input type="text" id="nama" placeholder="Nama Lengkap" />
       <br />
@@ -31,6 +32,15 @@
         placeholder="Alamat Sekarang"
       ></textarea>
       <br />
+      <label for="jnskelamin">Jenis Kelamin </label>
+      <input type="radio" id="pria" name="jnskelamin" /><label
+        for="jeniskelamin"
+        >Pria</label
+      >
+      <input type="radio" id="wanita" name="jnskelamin" />
+      <label for="jeniskelamin">Wanita</label>
+      <br />
+
       <label for="username">Username</label>
       <input type="text" id="username" />
       <br />
@@ -59,7 +69,8 @@
         >Membaca</label
       ><br />
       <!-- </div> -->
-
+      <br /><br />
+      <input type="submit" style="background: crimson" value="Kirim" />
       <br /><br /><br /><br />
     </form>
   </body>
