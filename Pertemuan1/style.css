@@ -1,0 +1,37 @@
+h1 {
+  color: aqua;
+}
+
+h2 {
+  text-align: center;
+  font: gold;
+}
+
+h3 {
+  color: silver;
+}
+
+h4 {
+  color: lightcoral;
+}
+
+h6 {
+  color: magenta;
+}
+
+ol {
+  color: aqua;
+}
+
+body {
+  margin-left: 50px;
+  background-color: white;
+  background-image: url(bg1.png);
+  background-repeat: repeat-x;
+}
+
+table {
+  border: 5px;
+  color: blue;
+  background-origin: padding-box;
+}
