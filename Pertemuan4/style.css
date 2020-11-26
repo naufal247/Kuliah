@@ -1,0 +1,48 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: yellow;
+}
+
+.alinea1 {
+  color: green;
+}
+
+.alinea2 {
+  color: red;
+}
+
+#alinea3 {
+  color: lightblue;
+}
+
+.kotak1 {
+  color: yellow;
+  /* background-color: lightblue; */
+  margin-left: 30px;
+  margin-right: 70%;
+  /* float: left; */
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+}
+
+.kotak2 {
+  color: yellow;
+  /* background-color: lightblue; */
+  margin-left: 30%;
+  margin-right: 5%;
+  /* float: left; */
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  position: relative;
+}
+
+body {
+  background-color: yellow;
+  background-position: right 45px bottom 20px;
+}
